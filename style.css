@@ -1,0 +1,155 @@
+@font-face {
+  font-family: fontHeadings;
+  src: url(./Assets/Prata.ttf);
+}
+
+@font-face {
+  font-family: fontBody;
+  src: url(./Assets/Inter.ttf)
+}
+
+*{
+	font-weight: lighter;
+}
+
+body{
+	margin: 0px;
+	background-color: #111;
+	color: white;
+	padding: 0px 0px;
+	font-family: fontHeadings;
+}
+
+section div, header, footer{
+	width: 80%;
+	padding: 0px 10%;
+}
+
+/*		Header		*/
+
+	header{
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 5vh;
+		font-size: 0.6em;
+	}
+
+	header button{
+		background-color: rgba(0,0,0,0);
+		color: white;
+		border: none;
+	}
+
+	header div{
+		display: flex;
+		align-items: center;
+	}
+
+	header div button{
+		font-size: 20px;
+		padding: 0px 20px;
+
+	}
+
+	.btn-contat{
+		background-color: yellow;
+		font-size: 20px;
+		color: black;
+		padding: 18px 40px;
+	}
+
+/*		Title		*/
+
+	#title{
+		width: 49%;
+		margin-top: 90px;
+	}
+
+	#title h1{
+		font-size: 60px;
+		margin-bottom: 0px;
+	}
+
+	#title p{
+		font-family: fontBody;
+		font-size: 20px;
+	}
+
+/*		Companies	*/
+	#companies{
+		margin: 100px 0px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+/*		Examples	*/
+	#examples{
+		display: flex;
+		justify-content: space-between;
+	}
+	#examples div{
+		width: 46%;
+		padding: 0px;
+	}
+	#examples div img{
+		width: 100%;
+	}
+	#examples div h1{
+		font-size: 40px;
+		margin: 20px 0px 0px;
+	}
+	#examples div p{
+		font-family: fontBody;
+		font-size: 20px;
+	}
+
+/*		About		*/
+	#about{
+		padding: 50px 10%;
+		margin-top: 50px;
+		background-color: #2a2d35;
+		display: flex;
+		justify-content: space-between;
+	}
+	#about div{
+		width: 46%;
+		padding: 0px;
+	}
+	#about div h1{
+		font-size: 40px;
+	}
+	#about div p{
+		font-family: fontBody;
+		font-size: 19px;
+	}
+
+/*		Contact		*/
+	#contact{
+		padding: 100px 10%;
+	}
+	#contact h1{
+		font-size: 40px;
+		margin: 0px;
+	}
+	#contact p{
+		width: 48%;
+		font-family: fontBody;
+		font-size: 20px;
+		margin: 0px;
+	}
+	#contact button{
+		margin-top: 20px;
+	}
+
+/*		Footer		*/
+	footer{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #2a2d35;
+		font-size: 0.6em;
+		padding: 10px 10%;
+
+	}	
+	footer div img{padding-right: 10px;}
